@@ -139,5 +139,13 @@ The things the grading code is looking for are:
 
 2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+## Result
+This algorithm performance depends on how many particles we used. The error tends to be less if we have more particles. However, it comes with a computational cost. Below are the result of my experiments.
+1. Result of **3 Particles**: Error is too large
+![3 Particles](images/3_particles.gif)
+2. Result of **5 Particles**: Error is acceptable
+![5 Particles](images/5_particles.gif)
+3. Result of **20 Particles**: Optimized performance
+![20 Particles](images/20_particles.gif)
+4. Result of **10,000 Particles**: Too time consuming
+![10,000 Particles](images/10000_particles.gif)
